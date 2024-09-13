@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Haven</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <!--Hero section-->
+    <!--Header section-->
+    <header>
+      <div class="nav">
+        <a href="index.html" class="logo">
+          <img
+            src="images/favicon.png"
+            alt="Urban Haven Logo"
+            style="
+              width: 80px;
+              height: 80px;
+              vertical-align: middle;
+              margin-right: 8px;
+            "
+          />
+          Urban Haven
+        </a>
+        <nav class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#modern spaces">Modern Spaces</a></li>
+          <li><a href="#ammenities">Ammenities</a></li>
+          <li><a href="#bookings">Bookings</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <a href="#" class="btn">Register</a>
+          <a href="#" class="btn">Login</a>
+        </nav>
+      </div>
+    </header>
+    <!--End of header section-->
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>Find a Perfect <br />Home</h1>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+      <form action="/search" method="get" class="location-search">
+        <input
+          type="text"
+          placeholder="Search Location"
+          name="location"
+          class="search-bar"
+        />
+        <button type="submit" class="search-btn">
+          <i class="bx bx-search"></i>
+        </button>
+      </form>
+    </section>
+    <!--End of hero section-->
+  </body>
+</html>
