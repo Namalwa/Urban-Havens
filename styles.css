@@ -135,7 +135,7 @@ header {
   margin-top: 5rem;
   background: url(images/home.jpg) no-repeat center center;
   background-size: cover;
-  border-radius: 1.5rem;
+  /*border-radius: 1.5rem;*/
   display: flex;
   align-items: center;
   padding: 0;
@@ -179,3 +179,72 @@ header {
 .search-btn:hover {
   background-color: #ff4500;
 }
+/*Rentals section>*/
+
+.rentals {
+  text-align: center;
+}
+
+h3 {
+  text-transform: capitalize;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+.rentals-card-container {
+  padding-inline: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.rentals-card {
+  width: 25rem;
+  background-color: #ffe5cf;
+  height: 35rem; /* Set a fixed height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+
+.rentals-card-image {
+  width: 100%; /* Ensures image takes up full width of the card */
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.rentals-card-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.rentals-card-details {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.rentals-apartment-cta {
+  border: none;
+  outline: none;
+  color: var(--bg-color);
+  background-color: #ff885b;
+  text-transform: capitalize;
+  padding: 1rem;
+  font-weight: 800;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.rentals-apartment-cta:hover {
+  background-color: black; /* Background color when hovering */
+}
+/*end of rental section*/
