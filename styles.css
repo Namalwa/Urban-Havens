@@ -481,3 +481,62 @@ footer {
   }
 }
 /*end of footer section*/
+
+/* scroll to top button */
+.scroll-to-top {
+  text-decoration: none;
+  background-color: var(--color-secondary);
+  --size: 5rem;
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+  z-index: 1000000000000;
+}
+/* end of scroll to top button *//* scroll to top button */
+/*.scroll-to-top {
+  text-decoration: none;
+  background-color: var(--main-color);
+  --size: 5rem;
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+  z-index: 1000000000000;
+}
+/* end of scroll to top button */
+#scrollUpBtn {
+  position: fixed; /* Position it at the bottom-right corner */
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  display: block;
+  text-decoration: none;
+  background-color: #555; /* Button color */
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#scrollUpBtn:hover {
+  background-color: #000; /* Button color on hover */
+}
